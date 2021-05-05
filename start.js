@@ -50,7 +50,7 @@ function connect() {
 			botConfig.maxConnectAttempts=0;
 			bot.chat('End of AFK session, paid time ended!');
 			bot.quit();
-		},5000)
+		},300000)
 	})
 }
 connect();
